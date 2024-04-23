@@ -17,12 +17,13 @@
         </ul>
       </nav>
       <button class="button">Contact Us</button>
+    </header>
 
-      <section class="contact-section">
-        <div>
+    <section class="contact-section">
+      <div>
         <h1>Contact Us</h1>
       </div>
-        <form>
+      <form>
         <div class="form-container">
           <label for="name">Full Name*</label>
           <input
@@ -33,9 +34,8 @@
             required
           />
         </div>
-        
-        
-          <div class="form-container" class="form-inline-container">
+        <div class="form-inline">
+          <div class="form-container">
             <label for="email">Email</label>
             <input
               type="email"
@@ -45,33 +45,31 @@
               required
             />
           </div>
-        
+
           <div class="form-container">
             <label for="phone">Phone</label>
             <input
-              type="number"
+              type="tel"
               id="phone"
               name="phone"
               placeholder="Enter your phone number"
               required
             />
-          </div>
-     
-
-          <div class="form-container">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              placeholder="Write your message here..."
-              required
-            ></textarea>
-          </div>
-          <button class="button-form" type="submit">Submit</button>
-        </form>
-      </section>
-    </header>
+          </div> 
+        </div>
+        <div class="form-container">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+        </div>
+        <button class="button-form" type="submit">Submit</button>
+      </form>
+    </section>
 
     <footer class="footer-website">
       <div class="left-side-footer">

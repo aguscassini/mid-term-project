@@ -69,36 +69,45 @@ header img {
   display: inline-block;
 }
 
-
 .contact-section {
   padding: 40px 80px 0px 80px;
 }
 .contact-section h1 {
-  margin-bottom: 20px;
-  padding: 80px 80px 20px 80px;
-  font-size: 20px;
+  margin: 30px 0 50px 0;
+  font-size: 25px;
   color: #292e47;
 }
 .form-container {
   margin-bottom: 20px;
 }
 
-label {
+.form-container label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  color: #6b708d;
+  font-size: 12px;
 }
+
+.form-inline {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 0;
+  width: 100%;
+
+}
+
 
 input[type="text"],
 input[type="email"],
-input[type="number"] textarea {
+input[type="tel"], textarea {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
-  padding: 10px;
   font-size: 10px;
   color: #6b708d;
-  width: 50vh;
   padding: 15px;
   border: none;
-  background-color: #6b708d8d;
+  background-color: #cdcfda90;
 }
 
 .button-form {
@@ -108,16 +117,9 @@ input[type="number"] textarea {
   background-color: #072ac8;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 40px;
 }
-.form-flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex: 1; /* Para que ocupen el mismo espacio */
-  margin-right: 10px; /* Opcional: para añadir espacio entre los campos */
-}
-/*poner estilos nuevos aca */
 
 .footer-website {
   padding: 30px 80px 50px 80px;
