@@ -12,7 +12,7 @@
 
       <nav>
         <ul class="nav-bar">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html" id="home">Home</a></li>
           <li><a href="../project.html">Project</a></li>
           <li><a href="../services.html">Services</a></li>
         </ul>
@@ -67,45 +67,154 @@
         <h2>Recent Projects</h2>
       </div>
       <section class="projects">
-        <div class= figures-box>
+        <div class="figures-box">
           <img src="../resources/projects-section/1.jpg" alt="figures-1" />
           <h3>Simplify</h3>
           <h4>UI Design & App Development</h4>
-          <p>Learn more</p>
+          <p class="learn-more">Learn more</p>
         </div>
-        <div class= figures-box>
+        <div class="figures-box">
           <img src="../resources/projects-section/2.jpg" alt="figures-2" />
           <h3>Dashcoin</h3>
           <h4>Web Development</h4>
-          <p>Learn more</p>
+          <p class="learn-more">Learn more</p>
         </div>
 
-        <div class= figures-box>
+        <div class="figures-box">
           <img src="../resources/projects-section/3.jpg" alt="figures-3" />
           <h3>Vectorify</h3>
           <h4>User Experience Design</h4>
-          <p>Learn more</p>
+          <p class="learn-more">Learn more</p>
         </div>
       </section>
     </article>
 
     <section class="testimonial-section">
-        <div>
-            <img src="../resources/testimonial-section/memoji-1.png" alt="memoji-1" class="memoji-img-1"/>
-            <img src="../resources/testimonial-section/memoji-2.png" alt="memoji-2" class="memoji-img-2"/>
-            <img src="../resources/testimonial-section/memoji-3.png" alt="memoji-3" class="memoji-img-3"/>
-            <img src="../resources/testimonial-section/memoji-4.png" alt="memoji-4" class="memoji-img-4"/>
+      <div>
+        <img
+          src="../resources/testimonial-section/memoji-1.png"
+          alt="memoji-1"
+          class="memoji-img-1"
+        />
+        <img
+          src="../resources/testimonial-section/memoji-2.png"
+          alt="memoji-2"
+          class="memoji-img-2"
+        />
+        <img
+          src="../resources/testimonial-section/memoji-3.png"
+          alt="memoji-3"
+          class="memoji-img-3"
+        />
+        <img
+          src="../resources/testimonial-section/memoji-4.png"
+          alt="memoji-4"
+          class="memoji-img-4"
+        />
+      </div>
+      <div class="testimonial-background">
+        <h2>Hear What Our Clients Have to Say</h2>
+        <p>
+          “Circle helped us through every stage of our startup. We really
+          enjoyed working with you.”
+        </p>
+      </div>
+      <section class="testimonial">
+        <img
+          src="../resources/testimonial-section/profile.png"
+          class="circle-mask"
+          alt="profile"
+        />
+        <div class="testimonial-name">
+          <p class="testimonial-1">Kristin Watson</p>
+          <p class="testimonial-2">Booking.com</p>
         </div>
-        <div class="testimonial-background">
-            <h3>Hear What Our Clients Have to Say</h3>
-            <h5>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</h5>
-        </div>
-        <div>
-            <img src="../resources/testimonial-section/orbit.png" alt="orbit" />
-            <img src="../resources/testimonial-section/profile.png" alt="profile" />
-        </div>
+      </section>
     </section>
 
+    <article>
+      <div class="services-section">
+        <h2>Our Services</h2>
+      </div>
+      <section class="services">
+        <div class="users-box">
+          <div class="mask-icons">
+            <img
+              src="../resources/services-section/icons/1.svg"
+              alt="pen-pic"
+            />
+          </div>
+          <h3>User Interface Design</h3>
+          <p class="inside-text">
+            Circle provides you with a stunning user interface design that is
+            accessible to everyone.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </div>
+        <div class="users-box">
+          <div class="mask-icons">
+            <img
+              src="../resources/services-section/icons/2.svg"
+              alt="click-pic"
+            />
+          </div>
+
+          <h3>User Experience Design</h3>
+          <p class="inside-text">
+            Circle always focuses on delivering the best user experience to your
+            customers.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </div>
+
+        <div class="users-box">
+          <div class="mask-icons">
+            <img
+              src="../resources/services-section/icons/3.svg"
+              alt="doc-pic"
+            />
+          </div>
+          <h3>Application Development</h3>
+          <p class="inside-text">
+            We develop high-quality mobile and web applications using the latest
+            technology stack.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </div>
+      </section>
+    </article>
+    <article class="yellow-background">
+      <h2>Do you have any questions?</h2>
+      <p>Let us help you!</p>
+      <section class="mail-button">
+        <div>
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <button class="suscribe-button">Suscribe</button>
+      </section>
+    </article>
+    <footer class="footer-website">
+      <div class="left-side-footer">
+      <img src="../resources/logos/circle.svg" alt="circle logo" />
+      <p>2972 Westheimer Rd. Santa Ana,
+        <br>Illinois 85486</p>
+    </div>
+      <ul class="right-side-footer">
+        <li>Team</li>
+        <li>Services</li>
+        <li>About Us</li>
+        <li>Press</li>
+        <li>Projects</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </footer>
     <script src="../js/home.js"></script>
   </body>
 </html>
