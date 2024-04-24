@@ -27,7 +27,8 @@ body {
   background-color: #f2f4fc;
 }
 
-.header {
+
+header {
   padding: 40px 80px 0px 80px;
   display: flex;
   flex-direction: row;
@@ -35,10 +36,12 @@ body {
   align-items: center;
 }
 
-.header img {
+header img {
   width: 60px;
   height: auto;
 }
+
+
 
 .nav-bar {
   width: 700px;
@@ -68,6 +71,7 @@ body {
   font-size: 15px;
   display: inline-block;
 }
+
 
 .first-section {
   padding: 0px 80px 80px 80px;
