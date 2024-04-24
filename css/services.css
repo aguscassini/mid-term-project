@@ -84,7 +84,7 @@ header img {
 .form-container label {
   display: block;
   margin-bottom: 8px;
-  color: #6b708d;
+  color:#6b708d;
   font-size: 12px;
 }
 
@@ -92,14 +92,18 @@ header img {
   display: flex; 
   justify-content: space-between; 
   margin-bottom: 0;
-  width: 100%;
+  
+}
 
+.brother {
+width: 49%;
 }
 
 
 input[type="text"],
 input[type="email"],
-input[type="tel"], textarea {
+input[type="tel"],
+ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -107,7 +111,7 @@ input[type="tel"], textarea {
   color: #6b708d;
   padding: 15px;
   border: none;
-  background-color: #cdcfda90;
+  background-color: #E6E9F1;
 }
 
 .button-form {
