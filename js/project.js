@@ -8,6 +8,7 @@ async function firstContentJson() {
     const data = await response.json();
 
     /*
+        works ok till here
         const test = document.querySelector("#test");
         console.log(test);
         test.innerText = data[0].image

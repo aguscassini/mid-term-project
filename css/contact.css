@@ -1,16 +1,15 @@
-/*remember to comment all */
+/* colors used in doc
 
-:root {
-  --blue: #072ac8;
-  --sky-blue: #43d2ff;
-  --pale-blue: #a2d6f9;
-  --light-blue: #d1edff;
-  --black: #292e47;
-  --grey: #6b708d;
-  --pale-grey: #f2f4fc;
-  --ice: #ecf7ff;
-  --yellow: #ffc600;
-}
+ color: #072ac8;
+ color: #43d2ff;
+ color: #a2d6f9;
+ color: #d1edff;
+ color: #292e47;
+ color: #6b708d;
+ color: #f2f4fc;
+ color: #ecf7ff;
+ color: #ffc600;
+*/
 
 *,
 html,
