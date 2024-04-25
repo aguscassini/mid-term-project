@@ -12,19 +12,19 @@ async function firstContentJson() {
       */
 
     const title = document.getElementById("name");
-    title.innerText = data[3].name;
+    title.innerHTML = data[3].name;
 
     const subtitle = document.getElementById("description");
-    subtitle.innerText = data[3].description;
+    subtitle.innerHTML = data[3].description;
 
     const paragraph = document.getElementById("content");
-    paragraph.innerText = data[3].content;
+    paragraph.innerHTML = data[3].content;
 
     const picture = document.getElementById("image");
     picture.innerHTML = `<img src="${data[3].image}" alt="Project Image">`;
 
     const date = document.getElementById("completed_on");
-    date.innerText = data[3].completed_on;
+    date.innerHTML = data[3].completed_on;
 
 
   } catch (e) {

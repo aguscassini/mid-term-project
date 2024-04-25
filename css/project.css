@@ -69,7 +69,10 @@ header img {
   padding: 8px 20px;
   border: none;
   font-size: 15px;
-  display: inline-block;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
 }
 
 
@@ -114,8 +117,6 @@ header img {
   font-size: 15px;
   color: #6b708d;
 }
-
-/*si hay tiempo extraer todo esto de abajo del json */
 
 .title-other-projects {
   padding: 80px 80px 20px 80px;

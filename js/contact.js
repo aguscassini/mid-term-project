@@ -2,8 +2,8 @@
 //bring info from json
 
 document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementsByClassName("form-box");
-  
+    const form = document.getElementById("form-box");
+    
     form.addEventListener("submit", function(event) {
       event.preventDefault();       // form is not sent automatically
 
@@ -39,8 +39,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 //burguer menu
+/*
   document.addEvenetListener('DOMContentLoaded', function(){
     document.getElementbyId('menu-toggle').addEvenetListener('click',function(){
-    document.querySelector('nav-bar').classList.toggle('show');
+    document.querySelector('.nav-bar').classList.toggle('show');
     });
   });
+  */
