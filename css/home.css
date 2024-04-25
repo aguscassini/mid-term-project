@@ -40,8 +40,6 @@ header img {
   height: auto;
 }
 
-
-
 .nav-bar {
   width: 700px;
   display: flex;
@@ -56,7 +54,6 @@ header img {
   text-decoration: none;
   color: #6b708d;
 }
-
 
 #home {
   color: #072ac8;
@@ -431,13 +428,16 @@ input[type="email"] {
     padding: 20px 40px 0px 40px;
   }
 
-
-
   .button {
     font-size: 12px;
   }
 
+.nav-bar{
+width:80%;
+}
+
   .hero-section {
+
     flex-direction: column;
   }
 
@@ -446,10 +446,9 @@ input[type="email"] {
     width: 100%;
   }
 
-  .left-side h1{
-font-size: 30px;
+  .left-side h1 {
+    font-size: 30px;
   }
-
 
   .man-img {
     width: 100%;
@@ -511,12 +510,11 @@ font-size: 30px;
     height: auto;
     padding: 20px;
     margin-top: 40px;
-    
   }
   .testimonial-section img {
     display: none;
   }
-  
+
   .testimonial-background {
     text-align: center;
     width: 90%;
@@ -526,7 +524,6 @@ font-size: 30px;
     font-size: 20px;
     margin-bottom: 30px;
     width: 40vh;
-
   }
 
   .testimonial-background p {
@@ -534,7 +531,6 @@ font-size: 30px;
     margin-bottom: 30px;
 
     width: 40vh;
-
   }
 
   .services-section {
@@ -580,25 +576,22 @@ font-size: 30px;
 
   .yellow-background {
     padding: 20px;
-    
   }
 
-  .yellow-background h2{
-  font-size: 19px;
-  align-items: center;
-  padding-top: 5px;
+  .yellow-background h2 {
+    font-size: 19px;
+    align-items: center;
+    padding-top: 5px;
   }
 
-  .yellow-background p{
+  .yellow-background p {
     padding: 5px;
-    
   }
   .mail-button {
     flex-direction: column;
     align-items: center;
     padding-top: 5px;
     margin: 20px 0;
-
   }
 
   input[type="email"] {
@@ -610,7 +603,6 @@ font-size: 30px;
   .suscribe-button {
     font-size: 14px;
     margin-bottom: 20px;
-
   }
 
   .footer-address {

@@ -40,6 +40,7 @@ header img {
   height: auto;
 }
 
+
 .nav-bar {
   width: 700px;
   display: flex;
@@ -69,6 +70,10 @@ header img {
   display: inline-block;
 }
 
+#menu-toggle{
+  display:none
+}
+
 .contact-section {
   padding: 40px 80px 0px 80px;
 }
@@ -84,26 +89,24 @@ header img {
 .form-container label {
   display: block;
   margin-bottom: 8px;
-  color:#6b708d;
+  color: #6b708d;
   font-size: 12px;
 }
 
 .form-inline {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 0;
-  
 }
 
 .brother {
-width: 49%;
+  width: 49%;
 }
-
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
- textarea {
+textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -111,7 +114,7 @@ input[type="tel"],
   color: #6b708d;
   padding: 15px;
   border: none;
-  background-color: #E6E9F1;
+  background-color: #e6e9f1;
 }
 
 .button-form {
@@ -125,7 +128,7 @@ input[type="tel"],
   margin-bottom: 40px;
 }
 
-.footer-website {
+.footer-address {
   padding: 30px 80px 50px 80px;
   display: flex;
   flex-direction: row;
@@ -151,4 +154,60 @@ input[type="tel"],
   justify-items: start;
   align-items: end;
   align-content: space-between;
+}
+
+/* For screens iPhone 375px x 667px */
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 20px 20px 0px 20px;
+  }
+
+  .nav-bar {
+   display: none;
+  }
+
+
+
+
+  .h1 {
+    font-size: 15px;
+  }
+  .form-container {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .form-inline {
+    display: block;
+    margin-bottom: 0;
+  }
+
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    font-size: 10px;
+    padding: 8px;
+    width: 100%%;
+  }
+
+  .button-form {
+    font-size: 12px;
+    width: 100%%;
+    margin-bottom: 20px;
+  }
+
+  .footer-address {
+    padding: 20px 40px;
+  }
+
+  .left-side-footer p {
+    font-size: 11px;
+  }
+
+  .right-side-footer {
+    font-size: 11px;
+  }
 }

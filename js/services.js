@@ -1,10 +1,12 @@
+
+//bring info from json
+
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementsByClassName("form-box");
   
     form.addEventListener("submit", function(event) {
-      // Prevents the form to be sent automatically
-      event.preventDefault();
-  
+      event.preventDefault();       // form is not sent automatically
+
       const nameInput = document.getElementById("name");
       const emailInput = document.getElementById("email");
       const phoneInput = document.getElementById("phone");
@@ -29,8 +31,16 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Write your message here...");
         return;
       }
-  
-      //If everything is validated, sends the form 
-      form.submit();
+      
+      form.submit(); //If everything is validated, sends the form 
+    });
+  });
+
+
+
+//burguer menu
+  document.addEvenetListener('DOMContentLoaded', function(){
+    document.getElementbyId('menu-toggle').addEvenetListener('click',function(){
+    document.querySelector('nav-bar').classList.toggle('show');
     });
   });
