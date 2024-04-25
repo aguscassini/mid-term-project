@@ -1,3 +1,5 @@
+//bring info from json
+
 async function firstContentJson() {
   try {
     const response = await fetch(
@@ -21,7 +23,7 @@ async function firstContentJson() {
     paragraph.innerHTML = data[3].content;
 
     const picture = document.getElementById("image");
-    picture.innerHTML = `<img src="${data[3].image}" alt="Project Image">`;
+    picture.setAttribute("src", data[3]);
 
     const date = document.getElementById("completed_on");
     date.innerHTML = data[3].completed_on;

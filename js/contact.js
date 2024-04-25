@@ -1,5 +1,5 @@
 
-//bring info from json
+
 
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("form-box");
@@ -31,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Write your message here...");
         return;
       }
+
+       // Check if name is "Ironhack"
+    if (nameInput.value.trim().toLowerCase() === "ironhack") {
+      alert("You cannot be Ironhack, because I am Ironhack.");
+      return;
+    }
       
       form.submit(); //If everything is validated, sends the form 
     });
@@ -38,11 +44,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-//burguer menu
-/*
-  document.addEvenetListener('DOMContentLoaded', function(){
-    document.getElementbyId('menu-toggle').addEvenetListener('click',function(){
-    document.querySelector('.nav-bar').classList.toggle('show');
-    });
-  });
-  */
