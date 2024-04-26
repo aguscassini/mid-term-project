@@ -5,7 +5,7 @@ MID TERM PROJECT - CIRCLE
 https://circle-agustina-midterm.netlify.app/
 
 - PRESENTATION LINK
-https://acrobat.adobe.com/id/urn:aaid:sc:US:50f4d2de-dd69-4a02-a73c-25146deaa413
+https://acrobat.adobe.com/id/urn:aaid:sc:US:91ce24e1-d5f5-462b-a477-f23abb8c3fe5
 
 
 - TECNOLOGIES USED:
