@@ -24,7 +24,7 @@ async function firstContentJson() {
     paragraph.innerHTML = data[3].content;
 
     const picture = document.getElementById("image");
-    picture.setAttribute("src", data[3]);
+    picture.setAttribute("src", data[3].image);
 
     const date = document.getElementById("completed_on");
     date.innerHTML = data[3].completed_on;
